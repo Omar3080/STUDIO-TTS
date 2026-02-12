@@ -1,0 +1,16 @@
+{
+  "appName": "Sales Management System",
+  "switchLanguage": "العربية",
+  "menu": {
+    "dashboard": "Dashboard",
+    "customers": "Customers",
+    "products": "Products",
+    "sales": "Sales",
+    "invoices": "Invoices",
+    "returns": "Returns",
+    "payments": "Payments",
+    "reports": "Reports",
+    "settings": "Settings",
+    "users": "Users & Permissions"
+  }
+}

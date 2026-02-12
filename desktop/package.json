@@ -1,0 +1,19 @@
+{
+  "name": "studio-sales-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^31.4.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.studio.sales",
+    "productName": "Studio Sales",
+    "files": ["main.js"],
+    "win": { "target": "nsis" }
+  }
+}

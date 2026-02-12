@@ -1,0 +1,16 @@
+{
+  "appName": "نظام إدارة المبيعات",
+  "switchLanguage": "English",
+  "menu": {
+    "dashboard": "لوحة التحكم",
+    "customers": "العملاء",
+    "products": "المنتجات",
+    "sales": "المبيعات",
+    "invoices": "الفواتير",
+    "returns": "المرتجعات",
+    "payments": "المدفوعات",
+    "reports": "التقارير",
+    "settings": "الإعدادات",
+    "users": "المستخدمين والصلاحيات"
+  }
+}
