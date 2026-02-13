@@ -1,0 +1,13 @@
+{
+  "name": "studio-sales-suite",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["backend", "frontend", "desktop"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w backend && npm run build -w frontend && npm run build -w desktop"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
