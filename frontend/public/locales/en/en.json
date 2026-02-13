@@ -1,0 +1,31 @@
+{
+  "appName": "Sales Management System",
+  "switchLang": "Switch language",
+  "menu": {
+    "dashboard": "Dashboard",
+    "customers": "Customers",
+    "products": "Products",
+    "sales": "Sales",
+    "invoices": "Invoices",
+    "returns": "Returns",
+    "payments": "Payments",
+    "reports": "Reports",
+    "settings": "Settings",
+    "users": "Users & Permissions"
+  },
+  "dashboard": {
+    "salesToday": "Sales Today",
+    "salesMonth": "Sales This Month",
+    "outstanding": "Outstanding Invoices",
+    "lowStock": "Low Stock Items"
+  },
+  "customers": {"code":"Customer Code","name":"Name","phone":"Phone","balance":"Balance"},
+  "products": {"sku":"SKU","name":"Product Name","price":"Price","qty":"Quantity"},
+  "invoice": {"number":"Invoice #","status":"Status","total":"Total"},
+  "payments": {"number":"Payment #","amount":"Amount","method":"Method"},
+  "returns": {"number":"Return #","status":"Status","total":"Total"},
+  "reports": {"code":"Code","customer":"Customer","balance":"Balance"},
+  "settings": {"title":"Settings","company":"Company Name","currency":"Currency","negative":"Allow Negative Stock"},
+  "auth": {"login":"Login","enter":"Enter","username":"Username","password":"Password"},
+  "users": {"username":"Username","fullName":"Full Name"}
+}

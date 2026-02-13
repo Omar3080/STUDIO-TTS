@@ -1,0 +1,31 @@
+{
+  "appName": "نظام إدارة المبيعات",
+  "switchLang": "تبديل اللغة",
+  "menu": {
+    "dashboard": "لوحة التحكم",
+    "customers": "العملاء",
+    "products": "المنتجات",
+    "sales": "المبيعات",
+    "invoices": "الفواتير",
+    "returns": "المرتجعات",
+    "payments": "المدفوعات",
+    "reports": "التقارير",
+    "settings": "الإعدادات",
+    "users": "المستخدمين والصلاحيات"
+  },
+  "dashboard": {
+    "salesToday": "إجمالي مبيعات اليوم",
+    "salesMonth": "إجمالي مبيعات الشهر",
+    "outstanding": "الفواتير غير المسددة",
+    "lowStock": "الأصناف منخفضة المخزون"
+  },
+  "customers": {"code":"كود العميل","name":"الاسم","phone":"رقم الهاتف","balance":"الرصيد"},
+  "products": {"sku":"SKU","name":"اسم الصنف","price":"سعر البيع","qty":"الكمية"},
+  "invoice": {"number":"رقم الفاتورة","status":"الحالة","total":"الإجمالي"},
+  "payments": {"number":"رقم السند","amount":"المبلغ","method":"الطريقة"},
+  "returns": {"number":"رقم المرتجع","status":"الحالة","total":"الإجمالي"},
+  "reports": {"code":"كود","customer":"العميل","balance":"الرصيد"},
+  "settings": {"title":"الإعدادات","company":"اسم الشركة","currency":"العملة","negative":"السماح بالمخزون السالب"},
+  "auth": {"login":"تسجيل الدخول","enter":"دخول","username":"اسم المستخدم","password":"كلمة المرور"},
+  "users": {"username":"اسم المستخدم","fullName":"الاسم الكامل"}
+}
